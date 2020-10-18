@@ -16,7 +16,7 @@ const getNotes = () => {
 };
 
 // A function for saving a note to the db
-const saveNote = (note) => {
+const saveNote = function (note) {
   return $.ajax({
     url: "/api/notes",
     data: note,
@@ -25,10 +25,10 @@ const saveNote = (note) => {
 };
 
 // A function for deleting a note from the db
-const deleteNote = (id) => {
+const deleteNote = function (id) {
   return $.ajax({
     url: "api/notes/" + id,
-    method: "DELETE",
+    method: "DELETE"
   });
 };
 
@@ -67,13 +67,13 @@ const handleNoteDelete = function (event) {
   // prevents the click listener for the list from being called when the button inside of it is clicked
   event.stopPropagation();
 
-  const note = $(this).parent(".list-group-item").data();
+  const note = $(this).data('id');
 
-  if (activeNote.id === note.id) {
+  if (activeNote.id === note) {
     activeNote = {};
   }
 
-  deleteNote(note.id).then(() => {
+  deleteNote(note).then(() => {
     getAndRenderNotes();
     renderActiveNote();
   });
@@ -85,7 +85,7 @@ const handleNoteView = function () {
   renderActiveNote();
 };
 
-// Sets the activeNote to and empty object and allows the user to enter a new note
+// Sets the activeNote to an empty object and allows the user to enter a new note
 const handleNewNoteView = function () {
   activeNote = {};
   renderActiveNote();

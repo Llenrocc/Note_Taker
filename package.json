@@ -18,6 +18,8 @@
   },
   "homepage": "https://github.com/Llenrocc/Note_Taker#readme",
   "dependencies": {
-    "axios": "^0.20.0"
-  }
+    "axios": "^0.20.0",
+    "express": "^4.17.1"
+  },
+  "keywords": []
 }
