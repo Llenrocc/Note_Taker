@@ -13,4 +13,16 @@ Whether you're on the go or need to write a grocery list, this app is for you.
 
 ## How to Install
 
-1.) 
+1.) Open up your terminal, and then create a new directory.
+2.) Once you have created a directory `cd` into the directory.
+3.) Clone the repository to your local branch `https://github.com/Llenrocc/Note_Taker.git`
+4.) `cd` into the directory, and then open VS code.
+5.) Open up the command line inside of VS Code and Run `npm init -y`
+6.) Then, run `npm install` to start installing all dependencies.
+
+## Usage
+
+Once you have installed all of the dependencies, run `node server.js` to start the application. 
+After you have received the message `App 
+
+
