@@ -24,6 +24,11 @@ Whether you're on the go or need to write a grocery list, this app is for you.
 ## Usage
 
 Once you have installed all of the dependencies, run `node server.js` to start the application. 
-After you have received the message `App 
+After you have received the message `App listening on PORT: 3001`, open up your browser and enter
+`http://localhost:3001`. Success. 
+
+## Heroku Link
+
+
 
 
