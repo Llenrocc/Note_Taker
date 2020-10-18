@@ -37,6 +37,4 @@ After you have received the message `App listening on PORT: 3001`, open up your 
 
 ## Heroku Link
 
-
-
-
+`https://dashboard.heroku.com/apps/lit-spire-78426`
