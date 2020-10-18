@@ -27,6 +27,14 @@ Once you have installed all of the dependencies, run `node server.js` to start t
 After you have received the message `App listening on PORT: 3001`, open up your browser and enter
 `http://localhost:3001`. Success. 
 
+## Built With
+
+* Javascript
+* NodeJS
+* Node Packages: Express
+* HTML
+* CSS 
+
 ## Heroku Link
 
 
