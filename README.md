@@ -7,3 +7,10 @@ Whether you're on the go or need to write a grocery list, this app is for you.
 ***
 ![Note-Taker2](https://user-images.githubusercontent.com/62081345/96357262-bf5cd300-10c7-11eb-960f-4bb01ecf13b2.gif)
 
+## What you need
+
+`NodeJS`
+
+## How to Install
+
+1.) 
